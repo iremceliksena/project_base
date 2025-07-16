@@ -5,6 +5,8 @@ library;
 // import 'dart:io';
 // import 'dart:math' as math;
 
+import 'dart:io';
+
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart' hide Response;
@@ -18,3 +20,4 @@ part 'repo/base_repository.dart';
 part 'repo/base_controller.dart';
 part 'common/screen/screen_base.dart';
 part 'common/screen/screen.dart';
+part 'services/http_override.dart';
